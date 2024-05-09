@@ -1,0 +1,12 @@
+- composer create-project laravel/laravel project-name
+- php artisan make:model -mcr
+- go to app\Providers\AppServiceProvider.php and set the boot() to  Schema::defaultStringLength(191); (to solve the migration error) 
+- create migration
+- run the migration
+- I put it in github
+
+- installing vue (https://www.linkedin.com/pulse/how-install-vue-3-laravel-10-vite-mahmoud-adel/)
+- npm install
+- npm install vue@latest vue-loader@latest
+- npm install @vitejs/plugin-vue
+
