@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-Route::resource('/', JobPostingController::class);
+Route::get('/{any}', [JobPostingController::class, 'index'])->where('any', '.*');

@@ -9,4 +9,7 @@
 - npm install
 - npm install vue@latest vue-loader@latest
 - npm install @vitejs/plugin-vue
+- npm install vue-router
+- app.js -> app.vue -> routes.js -> other components
+
 

@@ -28,7 +28,7 @@ class JobPostingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        var_dump(234);
     }
 
     /**

@@ -1,10 +1,18 @@
 
 <template>
-    <h1>This is some testing</h1>
-    <!-- <pre>{{ responseData }}</pre> -->
-    <div v-for="test in responseData" :key="test.id">
-        <p>{{ test.title }}</p>
+    <div>
+        <h1>Jobs Available</h1>
+        <div v-if="responseData">
+            <div v-for="test in responseData" :key="test.id">
+                <p>{{ test.title }}</p>
+            </div>
+        </div>
+        <div v-else>
+            <p>Loading data...</p>
+        </div>
+       
     </div>
+  
 </template>
 
 <script>
